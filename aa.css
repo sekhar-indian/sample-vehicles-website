@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+.page-container{
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+}
+.navbar-container{
+    background-color:rgb(32, 30, 64);
+    padding: 0.3%;
+    color:white;
+}
+.dashboard-body-container{
+    display:flex; 
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.slidbar-container{
+   background-color:rgb(218, 226, 236);
+   width: 160px;
+   color:black;
+}
+.body-container{
+
+ font-family:roboto;
+ width:90%;
+ flex-grow: 1;
+ overflow-y: auto;
+}
+.footer-container{
+ color: white;
+ background-color:rgb(32, 30, 64);
+
+}
+p{
+    padding: 10px;
+}
+.slidebar-heading{
+    width:125px;
+    padding-left: 7px;
+    background-color: rgb(139, 217, 245);
+    border-radius:6px
+    
+}
+
+.bm{
+    
+    margin-bottom: 10px;
+    background-color: rgb(3, 12, 101);
+    border-radius: 7px;
+    width: 90px;
+    color:white;
+    font-family: 'roboto';
+    font-size: medium;
+
+    
+}
